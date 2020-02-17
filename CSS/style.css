@@ -1,0 +1,154 @@
+body{
+color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-size: 150%;
+
+}
+
+h1{
+  color: #66BFBF;
+  text-align: center;
+  font-size: 5.625rem;
+  line-height: 2;
+  font-family: 'Sacramento', cursive;
+  margin-top: 50px;
+}
+
+h2{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+hr{
+
+border-style: none;
+border-top-style: dotted;
+width: 4%;
+border-color: #EAF6f6;
+border-width: 6px;
+margin: 100px auto;
+}
+p{
+  font-size: 100%;
+  line-height: 2;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+
+a:hover{
+  color: #EAf6f6;
+}
+
+/* Class Container */
+
+.bottom-container{
+  background-color: #66BFBF;
+
+}
+
+.bottom-cloud{
+    position: absolute;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+.footer-link{
+  color: #11999E;
+  font-size: 1rem;
+  margin: 10px 20px;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.skill-row{
+  width: 60%;
+  margin: 100px auto;
+
+  text-align: left;
+  line-height: 1;
+  font-size: 1.5rem;
+}
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px
+}
+
+.sapbasis{
+  width: 250px;
+  height: 100px;
+  float: left;
+  margin: auto 50px auto auto;
+}
+.sapbasis-desc{
+  clear: left;
+  margin-top: 100px;
+}
+
+.Linux{
+  width: 300px;
+  height: 200px;
+  float: right;
+  margin-left: 30px;
+}
+.Linux-desc{
+  clear: right;
+
+}
+
+.middle-container{
+  padding: 100px auto;
+}
+
+.myButton {
+  margin-bottom: 25px;
+      margin-top: 10px;
+      box-shadow: none;
+      background: linear-gradient(to bottom, #66BFBF 5%, #408c99 100%);
+      background-color: #66BFBF;
+      border-radius: 8px;
+      display: inline-block;
+      cursor: pointer;
+      color: #ffffff;
+      font-family: Arial;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 13px 32px;
+      text-decoration: none;
+      text-shadow: 0 1px 0 #3d768a;
+    }
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+.work{
+  text-decoration: underline;
+}
